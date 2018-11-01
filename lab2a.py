@@ -160,7 +160,7 @@ def booleanCheck(combined):
     bool_arr = []
     temp = combined
 
-    for i in range(6001):
+    for i in range(6001):#could this hard code have been done differently?
         bool_arr.append(False)
     
     for i in range (count(combined)):
